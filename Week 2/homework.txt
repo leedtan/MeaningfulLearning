@@ -1,0 +1,9 @@
+Homework
+
+1- Finish the rest of the codingbat.com/python questions if you haven't done so already.
+
+2- Familiarize yourself with leetcode.com algorithms section. Go through at least 10 easy questions and make sure to think about which data types fit the problem best. 
+
+3- Install vscode. Next week we will be using vscode for python code development, and start alternating between development in Jupyter Notebooks vs vscode/python because the two environments have different purposes and developers need to use both for any complex project.
+
+4- Set up blank autoformatter for vscode. This is a one-time set up that will make our lives much easier and our code much cleaner.
