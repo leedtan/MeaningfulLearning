@@ -1,0 +1,3 @@
+For homework today, please go through 10 more leetcode easy questions.
+
+You will start with Machine Learning homeworks once you have a bit firmer of a grasp.
