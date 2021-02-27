@@ -1,0 +1,7 @@
+Homework: 
+1- Read through https://towardsdatascience.com/ml-intro-3-logistic-output-units-ec42cc576634
+Come next week with questions about logistic regression.
+
+2- Pick an open online dataset and try linear and logistic regression on it.
+Compare performance metrics. Pretend you need to write a business paragraph where
+you describe the difference between the use of your two models.
