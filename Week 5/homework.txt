@@ -1,0 +1,3 @@
+For homework, please study logistic regression and other forms of regression. Read https://towardsdatascience.com/ml-intro-3-logistic-output-units-ec42cc576634 .
+
+Also, for coding practice, please solve https://leetcode.com/problems/pascals-triangle/
