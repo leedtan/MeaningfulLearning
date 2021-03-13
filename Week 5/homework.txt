@@ -1,3 +1,1 @@
-For homework, please study logistic regression and other forms of regression. Read https://towardsdatascience.com/ml-intro-3-logistic-output-units-ec42cc576634 .
-
-Also, for coding practice, please solve https://leetcode.com/problems/pascals-triangle/
+For homework, please study how to organize Machine Learning into clean python code. Follow along https://towardsdatascience.com/neural-network-introduction-for-software-engineers-1611d382c6aa and try to implement a similar solution on your own. This homework can take the next two weeks, and please come with questions next week
