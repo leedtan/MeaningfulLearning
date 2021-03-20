@@ -1,0 +1,2 @@
+For the class discussion today, reorganize the code so that you train a neural network with a argument number of hidden layers.
+For instance NeuralNetwork([100, 200, 100]) should make 3 hidden layers, with sizes 100, 200, and 100, respectively.
