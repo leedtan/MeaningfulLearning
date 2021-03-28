@@ -1,0 +1,7 @@
+For homework, please read the following blog and test locally that you can recreate his experiments. https://towardsdatascience.com/the-ultimate-beginners-guide-to-tensorflow-41d3b8e7d0c7 . This will teach you the basics of tensorflow v1, which is the only statis graph network API popular right now. We can cover static vs dynamic graphs at some point in the future. 
+
+Starting next week, we will pick more fun examples and acctually start to solve problems, now that we have all the tools in our toolbox.
+Please also speed-run through some coding exercises like codingbat again. We are all slow to just type out our solutions in python, which indicates that we just need more muscle memory translating our thoughts into python code. Problems like codingbat will help immensely and help.
+
+If you have already done every codingbat problem at least twice, feel free to do http://projecteuler.net/problems instead
+These problems you have to implement on your own computer, and just upload the solution, but they should also provide a nice rapid fire Python coding practice environment.
