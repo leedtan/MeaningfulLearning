@@ -54,9 +54,9 @@ def calc_y(df):
     y_diff = (y_future - y_past)/y_past
     return y_diff
 
-def get_trn_val(x, numeric_cols):
+def get_trn_val(x, numeric_cols, trn_percent = 0.8):
     n_date = x.shape[0]
-    x_trn, x_val = x.iloc[:np.floor(n_date * .8).astype(int)+1], x.iloc[np.floor(n_date * .8).astype(int):]
+    x_trn, x_val = x.iloc[:np.floor(n_date * trn_percent).astype(int)+1], x.iloc[np.floor(n_date * trn_percent).astype(int):]
     y_trn, y_val = [calc_y(x_set) for x_set in (x_trn, x_val)]
     mean_vals = x_trn[numeric_cols].mean().mean()
     x_trn = x_trn / mean_vals
