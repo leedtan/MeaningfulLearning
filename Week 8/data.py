@@ -61,8 +61,8 @@ def get_trn_val(x, numeric_cols, trn_percent = 0.8, val_percent = 0.2):
     x_trn, x_val = x.iloc[:num_trn+1], x.iloc[num_trn:num_trn+num_val]
     y_trn, y_val = [calc_y(x_set) for x_set in (x_trn, x_val)]
     mean_vals = x_trn[numeric_cols].mean().mean()
-    x_trn = x_trn / mean_vals
-    x_val = x_val / mean_vals
+    #x_trn = x_trn / mean_vals
+    #x_val = x_val / mean_vals
     x_trn, x_val = x_trn[:-1], x_val[:-1]
     x_trn, x_val = x_trn.values, x_val.values
     return x_trn, y_trn, x_val, y_val
