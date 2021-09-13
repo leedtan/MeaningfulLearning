@@ -42,7 +42,7 @@ def home():
 def predict():
     # predicting images
     imagefile = request.files["imagefile"]
-    image_path = os.path.join(image_folder, imagefile.filename)  #'./static/images/' + imagefile.filename
+    image_path = os.path.join(image_folder, imagefile.filename)  # './static/images/' + imagefile.filename
     imagefile.save(image_path)
 
     img = image.load_img(image_path, target_size=(300, 300))
