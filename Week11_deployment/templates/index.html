@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Horse_or_Human</title>
-    <style>
-        h1{text-align:center;}
-    </style>
+    <title>lees classifier</title>
 </head>
 <body bgcolor='black' text='white'>
 <h1> 
 <b>
 <font size=15 class="text-center">
-Horse or Human Prediction Model using Convnet 
+My classifier
 </font>
 </b>
 </h1>
@@ -19,7 +16,7 @@ Horse or Human Prediction Model using Convnet
 <hr></div>
 <h2> Upload the image to predict!</h2>
 <form action="/", method="post", enctype="multipart/form-data">
-  Upload the image :<input type="file" name="imagefile">
+  Where's your image? :<input type="file" name="imagefile">
   <p><input type="submit" value="Predict image"></p>
 </form>
 <img src="{{ user_image }}" height="280px" width="400px">
